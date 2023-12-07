@@ -3,8 +3,14 @@ import { ModeToggle } from './_components/mode-toggle'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 dark:bg-slate-900 bg-zinc-100">
-      <ModeToggle />
+    <main className=" dark:bg-slate-900 bg-zinc-100">
+      <div className='flex justify-between container space-y-6 lg:px-6 items-center h-24'>
+      <div className="logo">
+        <h2>logotipo</h2>
+      </div>
+        <ModeToggle />
+      
+      </div>
     </main>
   )
 }
